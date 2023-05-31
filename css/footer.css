@@ -1,0 +1,165 @@
+/* footer */
+#footer_wrap {
+    height: 693px;
+    background: url(../images/main/footer/footer_background.svg) no-repeat center;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 98px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.footer_contents {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 357px;
+    box-sizing: border-box;
+}
+
+
+.wrap1 {
+    
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+.footerlogo {
+    float: left;
+    width: 34%;
+}
+
+#util {
+    width: 65%;
+    float: right;
+}
+
+
+#util li {
+    float: left;
+    margin-left: 33px;
+    text-align: right;
+}
+
+#util li a {
+    width: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 26px;
+    font-family: 'KCC-Ganpan';
+}
+
+#util li a:hover {
+    color: #F57580;
+}
+
+.wrap2 {
+    overflow: hidden;
+}
+.top{
+    padding-top: 120px;
+}
+.top a {
+    font-size: 18px;
+}
+
+#util .top a:hover {
+    color: #F35663;
+}
+
+.footer .moreutil {
+
+    height: 30px;
+}
+
+.wrap3 {
+   overflow: hidden;
+}
+
+.footer .moreutil li {
+    float: left;
+    margin-right: 33px;
+}
+
+.footer .moreutil li a {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .moreutil li::after {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+    margin-left: 33px;
+    vertical-align: middle;
+}
+
+.footer .bottom li::after {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+    margin-left: 33px;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+.footer .moreutil li.none::after {
+    display: none;
+}
+
+.footer .top li:nth-child(6):after {
+    display: none;
+}
+
+.footer .bottom li:nth-child(5):after {
+    display: none;
+}
+
+.footer .bottom {
+    font-size: 16px;
+    margin-top: 34px;
+    position: relative;
+}
+
+.footer .bottom a {
+    font-size: 16px;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.copy {
+    font-size: 16px;
+    opacity: 0.5;
+    color: #fff;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.sns_btn {
+    float: right;
+    margin-bottom: 50px;
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+}
+
+.sns_btn a {
+    float: left;
+}
+
+.sns_btn a img {
+    width: 70%;
+    float: left;
+}
+
+.sns_btn a:hover {
+    opacity: 0.6;
+}

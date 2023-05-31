@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* 웹폰트 링크연결 */
+
+@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    min-width: 1500px;
+    font-size: 16px;
+    color: #333;
+}
+
+#container_wrap{
+    width: 100%;
+    height: 1500px;
+    background-color: #F9E7EB;
+}
+
+#container {
+    padding-top: 82px;
+}
+
+.innerbox {
+    width: 1320px;
+    height: 1150px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.title {
+    height: 174px;
+    padding-top: 62px;
+    background: url(../images/menu_1_page/title_cloud.png) no-repeat left 49% top 27px;
+}
+
+.title h1 {
+    font-size: 35px;
+}
+
+.inner_wrap{
+    width: 1320px;
+    height: 890px;
+}
+
+.inner_contents1 {
+    width: 660px;
+    height: 712px;
+    float: left;
+}
+
+.pic {
+    margin-top: 137px;
+}
+
+.pic p {
+    font-size: 13px;
+    font-weight: light;
+    color: #404040;
+}
+
+.btn {
+    width: 229px;
+    height: 55px;
+    margin: 0 auto;
+    background-color: #E1AB6E;
+    border-radius: 28px;
+    padding-top: 9px;
+    margin-top: 179px;
+}
+
+.btn:hover {
+    background-color: #e0bbbb;
+}
+
+.btn:hover a {
+    color: #6E9CE1;
+}
+
+.btn a {
+    font-size: 26px;
+    font-family: 'KCC-Ganpan';
+    color: #fff;
+}
+
+.inner_contents2{
+    width: 660px;
+    float: left;
+    text-align: left;
+}
+
+.contents2_title >p:nth-child(1){
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.contents2_title >p:nth-child(2){
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.contents2_title >p:nth-child(3){
+    margin-bottom: 36px;
+    padding-top: 34px;
+    font-size: 26px;
+    font-weight: medium;
+}
+
+.contents2_title >p:nth-child(3){
+    margin-bottom: 28px;
+}
+
+/*게시판토글*/
+
+/*.ab{color:red;}js제어*/
+
+.section1 {
+    width: 643px;
+    float: left;
+    text-align: left;
+    padding-left: 17px;
+}
+
+/*faq*/
+.font_10 {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 11px;
+}
+
+.right {
+    position: relative;
+    width: 660px;
+    padding: 10px 0;
+    padding-left: 17px;
+    float: right;
+    overflow: hidden;
+    border-radius: 0 20px 20px 0;
+}
+
+.right ul li:nth-child(1) {
+    text-align: center;
+    width: 610px;
+    float: left;
+}
+
+.right ul li:nth-child(2) {
+    float: left;
+}
+
+.right ul li:nth-child(3) {
+    width: 610px;
+    float: right;
+    padding-top: 17.5px
+}
+
+.right>li ul {
+    width: 100%;
+    height: 119px;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.text_info {
+    background: #ffffff;
+    text-align: left;
+    overflow: hidden;
+}
+
+.right>li .text_info {
+    display: none;
+    padding: 25px 0 30px 0;
+}
+
+.right>li .text_info {
+    width: 100%
+}
+
+.notice_line {
+    height: 1px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    background: #E6A4A4;
+}
+
+.notice_bg {
+    height: 781px
+}
+
+.right .font_18 {
+    position: relative;
+    height: 50px;
+    color: #333;
+    font-size: 20px;
+}
+
+.right .font_18 .noc_po {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.turn {
+    transform: rotate(180deg);
+}
+
+.plus img {
+    transition: transform 0.5s;
+}
+
+.text_info p {
+    float: left;
+    font-size: 16px;
+}
+
+.answer {
+    width: 150px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 200;
+    color: #ccc;
+}
+
+.pinkbtn{
+    clear: both;
+    background-color: #E18787;
+    width: 85px;
+    height: 35px;
+    padding-top: 5px;
+    margin: 25px  auto;
+}
+
+.pinkbtn a{
+    font-size: 18px;
+}
+
+.pinkbtn:hover{
+    background-color: #e0bbbb;
+}

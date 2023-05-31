@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    min-width: 1500px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+#banner {
+    width: 100%;
+    height: 391px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    height: 3104px;
+}
+.sec1{
+    text-align: center;
+}
+.tab_wrap {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.tab {
+    display: inline-block;
+    padding: 39px 0;
+    overflow: hidden;
+}
+
+.tab li {
+    float: left;
+}
+
+.tab li a {
+    font-family: 'KCC-Ganpan';
+    font-size: 28px;
+}
+
+.tab li:nth-child(1) a {
+    padding-right: 206px;
+    color: #F35663;
+}
+
+.name {
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 52px;
+}
+
+.name div {
+    float: left;
+    margin-top: 12px;
+}
+
+.name>p {
+    margin: 0 21px;
+    font-family: 'KCC-Ganpan';
+    font-size: 50px;
+    float: left;
+}
+
+.sec2 {
+    width: 100%;
+    height: 521px;
+    margin: 0 auto;
+    margin-top: 24px;
+    background-color: #FBE5EF;
+}
+.sec2_inner{
+    width: 1320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.le {
+    float: left;
+    width: 40%;
+}
+
+.ri {
+    float: right;
+    width: 60%;
+}
+
+.text_box {
+    float: left;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 78px;
+}
+
+.text_box p {
+    font-size: 20px;
+    font-weight: medium;
+    color: #632929;
+}
+
+.best_menu li {
+    float: left;
+    background-color: #fff;
+    width: 170px;
+    height: 170px;
+    border-radius: 110px;
+    text-align: center;
+}
+
+.best_menu {
+    margin-top: 250px;
+    overflow: hidden;
+}
+
+
+.mySwiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    height: 250px;
+    border-radius: 200px;
+}
+
+.sec3_wrap {
+    width: 100%;
+    height: 2366px;
+    overflow: hidden;
+    background: url(../images/menu_1/bg_donut.jpg) no-repeat center;
+    position: relative;
+}
+
+
+
+.sec3 {
+    width: 1320px;
+    margin: 0 auto;
+    height: 1900px;
+    box-sizing: border-box;
+}
+
+.tags {
+    margin-top: 106px;
+    text-align: center;
+}
+
+.tags>a {
+    text-align: right;
+}
+
+.box {
+    margin-top: 15px;
+    text-align: center;
+    height: 482px;
+}
+
+.box li {
+    float: left;
+    width: 294px;
+    height: 482px;
+    background-color: #fff;
+    margin-right: 48px;
+    margin-bottom: 34px;
+}
+
+.box li:nth-child(4) {
+    margin-right: 0;
+}
+
+.box li:nth-child(8) {
+    margin-right: 0;
+}
+
+
+.boxbg {
+    margin-top: 23px;
+    width: 242px;
+    height: 250px;
+    display: inline-block;
+}
+
+.pink {
+    background-color: #F99AA1;
+}
+
+.pink img {
+    transform: scale(0.9);
+    transition: transform 1.3s;
+}
+
+.pink img:hover {
+    transform: scale(1);
+}
+
+.dn_txt_title {
+    font-size: 22px;
+    font-family: 'KCC-Ganpan';
+    padding: 23px 0 16px 0;
+}
+
+.dn_txt_int {
+    height: 72px;
+    font-size: 16px;
+}
+
+.click {
+    background-color: #8CB7BE;
+    display: inline-block;
+    padding: 6px 11px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.click:hover {
+    background-color: #f1eca3;
+}
+
+.click:hover a {
+    color: #e18787;
+}
+
+.click a {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'KCC-Ganpan';
+    width: 100%;
+    height: 100%;
+}
+
+#position {
+    position: relative;
+}
+
+.news {
+    background-color: #fff;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.width {
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 29px;
+}
+
+.lef {
+    float: left;
+    text-align: left;
+}
+
+.lef h2 {
+    font-size: 40px;
+    color: #F35663;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+.lef p {
+    color: #5B3134;
+    font-weight: medium;
+    font-size: 20px;
+}
+
+.rig {
+    float: right;
+}
+
+.email {
+    width: 636px;
+    height: 66px;
+    background-color: #DDE1E8;
+    border-radius: 46px;
+}
+
+.email_input {
+    float: left;
+    width: 400px;
+    padding: 15px;
+}
+
+.email_input input {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    outline: 0;
+    font-size: 20px;
+
+}
+
+.botton {
+    width: 228px;
+    background-color: #EBD7C8;
+    height: 66px;
+    float: right;
+    border-radius: 46px;
+    padding-top: 13px;
+    font-size: 24px;
+}
+.botton p{
+    text-align: center;
+}
+

@@ -1,0 +1,463 @@
+@charset "UTF-8";
+/* 웹폰트 링크연결 */
+
+@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    min-width: 1500px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+#video_wrap {
+    background: url(../images/about/about_banner.jpg) no-repeat center;
+    width: 100%;
+    height: 1083px;
+}
+
+.video {
+    margin: 0 auto;
+    width: 1500px;
+    padding-top: 750px;
+}
+
+.video p {
+    font-family: 'KCC-Ganpan';
+    font-size: 38px;
+}
+
+#comtainer {
+    position: relative;
+}
+
+.section_a {
+    margin: 0 auto;
+    padding-top: 135px;
+    height: 510px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-size: 34px;
+    font-weight: Medium;
+}
+
+.little {
+    font-size: 22px;
+    font-weight: Medium;
+    padding-top: 42px;
+}
+
+.section_b {
+    height: 2040px;
+    background-color: #FFEDE1;
+    padding-top: 97px;
+}
+
+#first_wrap {
+    margin: 0 auto;
+    width: 1320px;
+    height: 477px;
+    box-sizing: border-box;
+    margin-bottom: 97px;
+}
+
+.first {
+    width: 100%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.pic_box {
+    width: 45%;
+}
+
+.txt_box {
+    width: 54%;
+}
+
+.first .left {
+    background: url(../images/about/textbox1.png) no-repeat left bottom;
+    height: 477px;
+    position: relative;
+}
+
+.txt_box> img{
+    position: absolute;
+    bottom: 250px;
+    left: 85px;
+}
+.textone {
+    font-size: 20px;
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    left: 85px;
+    bottom: 40px;
+}
+
+
+.textone p {
+    display: inline-block;
+    width: 327px;
+}
+
+.inner_txting img,
+.inner_txting p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inner_txting p:nth-child(1){
+    text-align: right;
+}
+
+.inner_txting:nth-child(1) {
+    margin-bottom: 44px;
+}
+
+.second .right {
+    background: url(../images/about/textbox2.png) no-repeat left bottom;
+    height: 477px;
+    position: relative;
+}
+
+.second .textone {
+    font-size: 20px;
+    width: 457px;
+    height: 200px;
+    position: absolute;
+    left: 175px;
+    bottom: 50px;
+}
+
+.second .txt_box> img{
+    position: absolute;
+    bottom: 267px;
+    left: 310px;
+}
+
+#first_wrap:nth-child(3) .inner_txting:nth-child(1){
+margin-bottom: 21px;
+}
+
+#first_wrap:nth-child(3) .inner_txting:nth-child(2){
+    margin-bottom: 21px;
+}
+
+.section_c_wrap{
+    margin: 0 auto;
+    width: 100%;
+    height: 1650px;
+    background: url(../images/about/about_bg.png) no-repeat center;
+}
+
+.section_c{
+    text-align: center;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1320px;
+    height: 1650px;    
+    position: relative;
+}
+.circle{
+    margin: 0 auto;
+    width: 753px;
+    height: 313px;
+    text-align: center;
+
+}
+.text1{
+    position: absolute;
+    top: 31px;
+    left: 25%;
+    font-size: 40px;
+    font-family: 'KCC-Ganpan';
+    color: #fff;
+}
+
+.txt1{
+    color: #F35663;
+}
+
+.wheel{
+    margin-top: 67px;
+    width: 100%;
+    height: 1270px;
+    background: url(../images/about/ferri_lg.png) no-repeat center bottom -32px;
+    position: relative;
+}
+.wheel_wrap{
+    position: relative;
+}
+.wheel_wrap p{
+    position: absolute;
+    top: 84px;
+    left: 50%;
+    margin-left: -427px;
+    width: 854px;
+    height: 854px;
+    z-index: 9;
+    animation: wheel_ani 15s infinite linear;
+}
+@keyframes wheel_ani{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.wheel div{
+    position: absolute;
+    top: 4px;
+    left: 527px;
+    transform-origin: 138px 507px;  
+    z-index: 99;
+}
+.rotate1{
+    animation: rotate_ani1 15s infinite linear;    
+}
+@keyframes rotate_ani1{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.wheel div:nth-child(1) img{
+    animation: reverse_ani1 15s infinite linear;
+}
+@keyframes reverse_ani1{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-360deg);}
+}
+
+.rotate2{
+    animation: rotate_ani2 15s infinite linear;
+}
+@keyframes rotate_ani2{
+    0%{transform: rotate(45deg);}
+    100%{transform: rotate(405deg);}
+}
+.wheel div:nth-child(2) img{
+    animation: reverse_ani2 15s infinite linear;
+}
+@keyframes reverse_ani2{
+    0%{transform: rotate(-45deg);}
+    100%{transform: rotate(-405deg);}
+}
+
+.rotate3{
+    animation: rotate_ani3 15s infinite linear;    
+}
+@keyframes rotate_ani3{
+    0%{transform: rotate(90deg);}
+    100%{transform: rotate(450deg);}
+}
+.wheel div:nth-child(3) img{
+    animation: reverse_ani3 15s infinite linear;
+}
+@keyframes reverse_ani3{
+    0%{transform: rotate(-90deg);}
+    100%{transform: rotate(-450deg);}
+}
+
+.rotate4{
+    animation: rotate_ani4 15s infinite linear;    
+}
+@keyframes rotate_ani4{
+    0%{transform: rotate(135deg);}
+    100%{transform: rotate(495deg);}
+}
+.wheel div:nth-child(4) img{
+    animation: reverse_ani4 15s infinite linear;
+}
+@keyframes reverse_ani4{
+    0%{transform: rotate(-135deg);}
+    100%{transform: rotate(-495deg);}
+}
+
+.rotate5{
+    animation: rotate_ani5 15s infinite linear;    
+}
+@keyframes rotate_ani5{
+    0%{transform: rotate(180deg);}
+    100%{transform: rotate(540deg);}
+}
+.wheel div:nth-child(5) img{
+    animation: reverse_ani4 15s infinite linear;
+}
+@keyframes reverse_ani5{
+    0%{transform: rotate(-180deg);}
+    100%{transform: rotate(-540deg);}
+}
+.rotate6{
+    animation: rotate_ani6 15s infinite linear;    
+}
+@keyframes rotate_ani6{
+    0%{transform: rotate(225deg);}
+    100%{transform: rotate(585deg);}
+}
+.wheel div:nth-child(6) img{
+    animation: reverse_ani4 15s infinite linear;
+}
+@keyframes reverse_ani6{
+    0%{transform: rotate(-225deg);}
+    100%{transform: rotate(-585deg);}
+}
+.rotate7{
+    animation: rotate_ani7 15s infinite linear;    
+}
+@keyframes rotate_ani7{
+    0%{transform: rotate(270deg);}
+    100%{transform: rotate(630deg);}
+}
+.wheel div:nth-child(7) img{
+    animation: reverse_ani4 15s infinite linear;
+}
+@keyframes reverse_ani7{
+    0%{transform: rotate(-270deg);}
+    100%{transform: rotate(-630deg);}
+}
+.rotate8{
+    animation: rotate_ani8 15s infinite linear;    
+}
+@keyframes rotate_ani8{
+    0%{transform: rotate(315deg);}
+    100%{transform: rotate(675deg);}
+}
+.wheel div:nth-child(8) img{
+    animation: reverse_ani4 15s infinite linear;
+}
+@keyframes reverse_ani8{
+    0%{transform: rotate(-315deg);}
+    100%{transform: rotate(-675deg);}
+}
+
+.section_d{
+    margin: 0 auto;
+    height: 487px;
+    text-align: center;
+}
+
+.imgs{
+    padding-top: 82px;
+    padding-bottom: 44px;
+}
+
+.section_d p{
+    font-size: 22px;
+    font-weight: medium;
+    padding-bottom: 73px;
+}
+
+.section_e_wrap{
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #FFE8E8;
+}
+
+.section_e{
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 164px;
+}
+
+.round_box{
+    height: 376px;
+    width: 1300px;
+    border-radius: 177px;
+    position: relative;
+    margin-bottom: 269px;
+}
+
+.blue{
+    background-color: #BBF3FF;
+}
+
+.pink{
+    background-color: #FFC1CF;
+}
+.yellow{
+    background-color: #FFFBC5;
+}
+.purple{
+    background-color: #E4DDF8;
+}
+
+.number{
+    display: inline-block;
+    position: absolute;
+    left: -45px;
+    top: 96px;
+}
+
+.text_b{
+    width: 51%;
+    height: 100%;
+    padding-top: 57px;
+    padding-left: 111px;
+    color: #431717;
+    float: left;
+}
+
+.text_b span{
+    font-size: 80px;
+    color: #431717;
+    font-family: 'KCC-Ganpan';
+}
+
+.text_b p{
+    margin-top: 51px;
+    font-size: 21px;
+    font-weight: Medium;
+}
+
+.photo_b{
+    width: 49%;
+    float: right;
+}
+

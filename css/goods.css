@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* 웹폰트 링크연결 */
+
+@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    min-width: 1500px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+.bg{
+    background-color: #FBE8E8;
+}
+#container{
+    overflow: hidden;
+    padding-top: 33px;
+    height: 813px;
+}
+
+.inner_container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+.pl_photo{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.pl_photo li{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.name{
+    width: 80px;
+    height: 60px;
+    border-radius: 160px;
+    background-color: #A9CBE5; 
+    padding-top: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.name a{
+    color: #fff;
+    font-family: 'KCC-Ganpan';
+    vertical-align: middle;
+}
+
+.image{
+    width: 50%;
+    height: 50%;
+}
+
+.pl_photo li:nth-child(4){
+    margin-right: 0;
+}
+
+
+.pl_photo img{
+    border-radius: 500px;
+    background-color: #000;
+    margin-bottom: 28px;
+    width: 265px;
+    height: 265px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.pl_photo li a:hover img{
+    opacity: 0.5;
+}
+
+.section{
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+.moretxt{
+    width: 1320px;
+    margin: 0 auto;
+    height: 450px;
+    position: relative;
+}
+
+
+.bigname{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: 99;
+    width: 210px;
+    height: 210px;
+    padding: 60px 0 0 60px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bigname a{
+    font-size: 50px;
+}
+
+.text_boxs{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border-radius: 108px;
+    width: 569px;
+    height: 216px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text_boxs p{
+    font-size: 20px;
+    padding: 58px 120px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.photo_boxs{
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 50%;
+}
+
+.photo_boxs img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* footer */
